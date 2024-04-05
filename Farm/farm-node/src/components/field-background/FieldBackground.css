@@ -1,0 +1,18 @@
+.background-filter{
+    color: red;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+}
+
+.background-image{
+    background-image: url("../../../public/images/farm-background.webp");
+    width: 100vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    filter: blur(2px);
+    z-index: 1;
+}
