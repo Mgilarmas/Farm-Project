@@ -1,10 +1,12 @@
 import "./FieldBackground.css"
 
-function FieldBackground(){
-    return(
+function FieldBackground() {
+    return (
         <>
-            <div className="background-filter"></div>
-            <div className="background-image"></div>
+            <div className="background-image">
+            <div className="yellow-filter">
+            </div>
+            </div>
             
         </>
     )

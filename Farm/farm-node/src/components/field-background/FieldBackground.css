@@ -1,18 +1,12 @@
-.background-filter{
-    color: red;
+.yellow-filter{
+    background-color: rgb(247, 246, 187);
     width: 100vw;
     height: 100vh;
-    position: absolute;
-    z-index: 2;
-}
+    filter: opacity(50%);
+  }
 
 .background-image{
     background-image: url("../../../public/images/farm-background.webp");
     width: 100vw;
     height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    filter: blur(2px);
-    z-index: 1;
 }
