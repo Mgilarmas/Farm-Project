@@ -1,11 +1,18 @@
 /* Extra small devices (phones, 600px and down) */
-.header
-    {
-        background-color: rgb(247, 246, 187);
-        width: 100vw;
-        height: 15vw;
-        z-index: 200;
-    }
+.header {
+  width: 100vw;
+  height: 15vw;
+  z-index: 200;
+  position: fixed;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.header i {
+  font-size: 5vw;
+  margin-left: 0.5em;
+}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
