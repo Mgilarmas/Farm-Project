@@ -1,3 +1,4 @@
+import SideMenu from "../side-menu/SideMenu";
 import "./FieldBackground.css"
 
 function FieldBackground() {
