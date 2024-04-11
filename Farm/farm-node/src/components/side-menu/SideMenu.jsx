@@ -1,10 +1,10 @@
 import "./SideMenu.css";
 
-function SideMenu() {
+function SideMenu({ toggleSideMenu }) {
   return (
     <>
-      <div id="side-menu">
-        <i id="close-side-menu" class="fa-solid fa-xmark"></i>
+      <div className="side-menu">
+        <i onClick={toggleSideMenu} class="fa-solid fa-xmark"></i>
       </div>
     </>
   )
