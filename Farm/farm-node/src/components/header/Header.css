@@ -19,10 +19,28 @@
 @media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+
+  .header i {
+    font-size: 4vw;
+    margin-bottom: 1em;
+    margin-left: 1em;
+  }
+
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+
+  .header {
+    background-color: rgb(210, 222, 50);
+    height: 3vw;
+  }
+
+  .header i{
+    visibility: hidden;
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}

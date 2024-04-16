@@ -1,4 +1,4 @@
-import SeedsAndTrees from "../../components/crops-images/SeedsAndTrees";
+// import SeedsAndTrees from "../../components/crops-images/SeedsAndTrees";
 import FieldBackground from "../../components/field-background/FieldBackground";
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
@@ -10,7 +10,6 @@ function Home() {
       {/* <SideMenu/> */}
       <Header />
       <FieldBackground />
-      <SeedsAndTrees />
       <Footer />
     </>
   )
