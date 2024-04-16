@@ -2,6 +2,7 @@
 import FieldBackground from "../../components/field-background/FieldBackground";
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
+import SeedsAndTrees from "../../components/seeds-and-trees/SeedsAndTrees";
 import SideMenu from "../../components/side-menu/SideMenu";
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
       {/* <SideMenu/> */}
       <Header />
       <FieldBackground />
+      <SeedsAndTrees/>
       <Footer />
     </>
   )

@@ -12,7 +12,7 @@ function FieldBackground() {
             <h1>Crops</h1>
           </div>
         </div>
-        <input type="text" />
+        <input type="text" placeholder="Search"/>
       </div>
       <div className="background-image">
         <div>

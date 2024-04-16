@@ -4,6 +4,25 @@ function Footer() {
   return (
     <>
       <div className="footer">
+      <img src="/images/starcrop-logo.png" alt="logo" />
+        <div className="seed-list">
+          <h3>Seeds</h3>
+          <ul>
+            <a href="">Fruits</a>
+            <a href="">Vegetables</a>
+            <a href="">Flowers</a>
+            <a href="">Trees</a>
+          </ul>
+        </div>
+        <div className="fruit-list">
+          <h3>Fruits</h3>
+          <ul>
+            <a href="">Apple</a>
+            <a href="">Tomato</a>
+            <a href="">Strawberry</a>
+            <a href="">Orange</a>
+          </ul>
+        </div>
         <div className="autor">
           <h3>Web design by: Mauricio Gil Armas</h3>
           <h3>Contact: mauriciogilarmas@gmail.com</h3>
@@ -17,9 +36,9 @@ function Footer() {
           <a class="fa-brands fa-facebook" href="https://www.facebook.com/mauricio.j.gil.1"></a>
         </div>
         <div className="terms">
-          <a href="">Política de Privacidad y Cookies</a>
+          <a href="">Privacy and Cookies policy</a>
           <p>|</p>
-          <a href="">Condiciones de Venta</a>
+          <a href="">Terms of sale</a>
         </div>
         <p>© 2024 STAR CROPS Todos los derechos reservados</p>
       </div>

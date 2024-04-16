@@ -3,10 +3,44 @@
   height: 50vh;
   background-color: rgb(54, 53, 53);
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  
+}
+
+.footer img{
+  width: 20vw;
+  height: 10vh;
+}
+
+.seed-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.seed-list ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.seed-list a{
+  text-decoration: none;
+  color: black;
+}
+
+.fruit-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.fruit-list ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.fruit-list a{
+  text-decoration: none;
+  color: black;
 }
 
 .autor{
@@ -15,9 +49,6 @@
   align-items: center;
 }
 
-.autor h3{
-  
-}
 
 .webs a{
   font-size: 7vw;
@@ -36,10 +67,15 @@
   width: 90vw;
   display: flex;
   text-decoration: none;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .terms a{
   text-decoration: none;
   color: black;
+}
+
+.terms p{
+  margin-left: 1em;
+  margin-right: 1em;
 }

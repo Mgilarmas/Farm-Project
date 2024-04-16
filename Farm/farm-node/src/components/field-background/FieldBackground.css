@@ -18,6 +18,11 @@
   height: 10vh;
 }
 
+.logo img:hover{
+  rotate: 360deg;
+  transition: 1s;
+}
+
 .logo h1{
   font-family: "Inika", serif;
   font-weight: 400;
