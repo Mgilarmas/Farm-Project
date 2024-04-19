@@ -1,36 +1,48 @@
 .crops-container{
   width: 100vw;
-  height: 220vh;
+  height: auto;
   background-color: rgb(255, 255, 221);
   display: flex;
-  align-items: center;
-  overflow: hidden;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
 }
 
 .image-list{
   background-color: rgb(255, 255, 221);
-  box-sizing: border-box;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: 100vw;
-  height: 30vh;
-  margin-top: 10em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
-.image-list img{
+.image-list-crops{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.image-list-crops img{
   width: 100%;
-  height: 100%;
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
   filter: drop-shadow(0px 14px 6px #000000);
 }
 
-.image-text{
-  width: 100%;
+.image-list-crops img:hover{
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  transition: 1s;
+}
+
+.image-list-text{
+  width: 50%;
   background-color: rgb(162, 197, 121);
   display: flex;
   flex-direction: column;
@@ -40,16 +52,42 @@
   filter: drop-shadow(0px 14px 6px #000000);
 }
 
-.image-text span{
+.image-list-text span{
   font-family: "Inika", serif;
   font-weight: bold;
   font-style: normal;
 }
 
-.image-list p{
+.image-list-text p{
   font-family: "Inika", serif;
   font-weight: 400;
   font-style: normal;
   margin-left: 1em;
   margin-right: 1em;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  .image-list{
+    width: 50%;
+  }
+
+  .image-list-crops{
+    width: 70%;
+  }
+
+  .image-list-text{
+    width: 70%;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -1,0 +1,36 @@
+.flowers-container{
+  background-color: rgb(255, 255, 221);
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flower-image-list{
+ width: 50%;
+ height: 80%;
+ margin-top: 2.5em;
+}
+
+.flower-image-list img{
+  width: 100%;  
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.flower-image-list img:hover{
+  transform: scale(110%);
+  transition: 1s;
+}
+
+.flower-image-list span{
+  font-weight: bold;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.flower-image-list p{
+  padding: 1em;
+  box-sizing: border-box;
+}

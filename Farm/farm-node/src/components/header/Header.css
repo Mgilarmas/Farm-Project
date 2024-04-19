@@ -1,7 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 .header {
   width: 100vw;
-  height: 15vw;
+  height: 10vw;
   z-index: 200;
   position: fixed;
   display: flex;

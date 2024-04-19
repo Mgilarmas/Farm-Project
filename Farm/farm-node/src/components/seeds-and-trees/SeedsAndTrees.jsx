@@ -1,4 +1,4 @@
-import cropsImages from "../../services/photos/cropsImages";
+import cropsImages from "../../services/photos/CropsImages";
 import "./SeedsAndTrees.css";
 
 function SeedsAndTrees() {
@@ -9,8 +9,10 @@ function SeedsAndTrees() {
           cropsImages.map((cropsImages, index) => (
             <>
               <div className="image-list">
+                <div className="image-list-crops">
                 <img key={index} src={`/images/${cropsImages.fileName}`} alt="imagen" />
-                <div className="image-text">
+                </div>
+                <div className="image-list-text">
                   <span>{cropsImages.name}</span>
                   <p>{cropsImages.text}</p>
                 </div>

@@ -7,6 +7,7 @@ function SideMenu({ toggleSideMenu }) {
         <i onClick={toggleSideMenu} class="fa-solid fa-xmark"></i>
         <div className="side-menu-list">
           <a href="Home">Home</a>
+          <a href="Flowers">Flowers</a>
           <a href="Contact">Contact</a>
         </div>
       </div>
