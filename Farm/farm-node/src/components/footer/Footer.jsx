@@ -36,9 +36,9 @@ function Footer() {
           <a class="fa-brands fa-facebook" href="https://www.facebook.com/mauricio.j.gil.1"></a>
         </div>
         <div className="terms">
-          <a href="">Privacy and Cookies policy</a>
+          <a href="PrivacyCookies">Privacy and Cookies policy</a>
           <p>|</p>
-          <a href="">Terms of sale</a>
+          <a href="TermSales">Terms of sale</a>
         </div>
         <p>© 2024 STAR CROPS Todos los derechos reservados</p>
       </div>

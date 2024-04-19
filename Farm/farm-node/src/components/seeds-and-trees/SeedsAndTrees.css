@@ -33,6 +33,7 @@
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
   filter: drop-shadow(0px 14px 6px #000000);
+  transition: 1s;
 }
 
 .image-list-crops img:hover{
@@ -42,11 +43,13 @@
 }
 
 .image-list-text{
-  width: 50%;
+  width: 50vw;
+  height: 15vh;
   background-color: rgb(162, 197, 121);
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   filter: drop-shadow(0px 14px 6px #000000);
@@ -84,7 +87,21 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+
+  .image-list{
+    width: 30%;
+  }
+
+  .image-list-crops{
+    width: 70%;
+  }
+
+  .image-list-text{
+    width: 70%;
+  }
+
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}

@@ -1,8 +1,30 @@
-# React + Vite
+# Star Crops
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project it's about a website that sells seeds, fruits, vegetables, trees, plants and teach you how to take care of it.
 
-Currently, two official plugins are available:
+Initially appeared on
+[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+
+Requirements for the software and other tools to build, test and push 
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+## Authors
+
+  - **Mauricio Gil Armas**
+    [Mgilarmas](https://github.com/Mgilarmas)
+
+## External Reference
+
+  [W3School](https://www.w3schools.com/)
+  [StackOverflow](https://es.stackoverflow.com/)
+  [MDN web docs](https://developer.mozilla.org/es/)
+
+## Acknowledgments
+
+  - Echedey
+  - Wilmer
+  - Aythami
+  - Mayer
+

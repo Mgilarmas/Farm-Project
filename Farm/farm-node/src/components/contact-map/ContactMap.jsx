@@ -4,8 +4,8 @@ function ContactMap(){
   return (
     <>
     <div className="background">
-    <div className="map-container">
-        <h1>Conocenos</h1>
+      <div className="map-container">
+        <h1>Meet us</h1>
         <img src="/images/map.png" alt="map" />
       </div>
       <div className="formulary-container">

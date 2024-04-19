@@ -13,6 +13,9 @@ function Header() {
     <>
       <div className="header">
         <i onClick={toggleSideMenu} class="fa-solid fa-bars"></i>
+        <a href="Home">Home</a>
+          <a href="Flowers">Flowers</a>
+        <a href="Contact">Contact</a>
       </div>
       {sideMenuOpen ? <SideMenu toggleSideMenu={toggleSideMenu} /> : ""}
     </>

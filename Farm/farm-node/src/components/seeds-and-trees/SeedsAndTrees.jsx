@@ -1,4 +1,4 @@
-import cropsImages from "../../services/photos/CropsImages";
+import cropsImages from "../../services/photos/cropsImages";
 import "./SeedsAndTrees.css";
 
 function SeedsAndTrees() {
