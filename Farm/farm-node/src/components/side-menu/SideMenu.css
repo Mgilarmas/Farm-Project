@@ -1,0 +1,32 @@
+.side-menu{
+  background-color: rgb(210, 222, 50);
+  width: 40vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-menu i{
+  font-size: 7vw;
+  margin-top: 0.2em;
+  margin-left: 4.5em;
+}
+
+.side-menu-list{
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-menu-list a{
+  text-decoration: none;
+  margin-top: 1em;
+  font-family: "Inika", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+  color: black;
+}
