@@ -9,6 +9,7 @@ function SideMenu({ toggleSideMenu }) {
           <a href="Home">Home</a>
           <a href="Flowers">Flowers</a>
           <a href="Contact">Contact</a>
+          <a href="Forum">Forum</a>
         </div>
       </div>
     </>
