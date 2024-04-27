@@ -4,7 +4,9 @@ function Footer() {
   return (
     <>
       <div className="footer">
-      <img src="/images/starcrop-logo.png" alt="logo" />
+        <div className="footer-logo">
+        <img src="/images/starcrop-logo.png" alt="logo" />
+        </div>
         <div className="seed-list">
           <h3>Seeds</h3>
           <ul>
