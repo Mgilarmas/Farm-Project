@@ -8,8 +8,8 @@ function SideMenu({ toggleSideMenu }) {
         <div className="side-menu-list">
           <a href="Home">Home</a>
           <a href="Flowers">Flowers</a>
-          <a href="Contact">Contact</a>
           <a href="Forum">Forum</a>
+          <a href="Contact">Contact</a>
         </div>
       </div>
     </>

@@ -1,11 +1,13 @@
 import Header from "../../components/header/Header"
-import SideMenu from "../../components/side-menu/SideMenu"
+import PlantList from "../../components/plant-list/PlantList"
+import Footer from "../../components/footer/Footer"
 
 
 function Forum() {
   return(
     <>
       <Header/>
+      <PlantList/>
     </>
   )
 }
