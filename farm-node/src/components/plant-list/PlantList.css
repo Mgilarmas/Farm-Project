@@ -26,5 +26,15 @@
   width: 100%;
   height: 50%;
   display: flex;
+  flex-direction: column;
+}
+
+.show-plant-list-elements
+{
+  width: 20%;
+  height: 10%;
+  display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }

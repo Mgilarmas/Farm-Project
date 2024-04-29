@@ -8,14 +8,15 @@ const getAllSeeds = () => {
 }
 
 const addSeeds = (seed, price) => {
-  push(refSeeds, {
+  return push(refSeeds, {
     seed: seed,
     price: price
   })
 }
 
-const removeSeeds = () => {
-  return remove(refSeeds);
+const removeSeeds = (key) => {
+  const refSeedsOnlyThisKey = ref(db, `/StarCrops/${key}`);
+  return remove(refSeedsOnlyThisKey)
 }
 
 export default{

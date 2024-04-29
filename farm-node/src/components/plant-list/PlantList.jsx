@@ -46,14 +46,18 @@ function PlantList() {
       })
       setCrops([...auxSeeds]);
     });
+
   }
 
   useEffect(() => {
     getAllSeeds();
   }, [])
 
-  const deleteSeeds = () => {
-    
+  const deleteSeeds = (key) => {
+    starcropsService.removeSeeds(key).then(() => {
+      getAllSeeds()
+    })
+
   }
 
   return (
@@ -72,10 +76,11 @@ function PlantList() {
         <div className="show-plant-list">
           {
             crops.map((c) => (
-              <>
-                <p key={c.key}>{c.seed}{c.price}</p>
-                <button onClick={deleteSeeds}>Delete</button>
-              </>
+              <div key={c.key} className="show-plant-list-elements">
+                <p>{c.seed}</p>
+                <p>{c.price}</p>
+                <button onClick={() => deleteSeeds(c.key)}>Delete</button>
+              </div>
             ))
           }
         </div>

@@ -12,7 +12,7 @@ function Header() {
   return (
     <>
       <div className="header">
-        <i onClick={toggleSideMenu} class="fa-solid fa-bars"></i>
+        <i onClick={toggleSideMenu} className="fa-solid fa-bars"></i>
         <a href="Home">Home</a>
         <a href="Flowers">Flowers</a>
         <a href="Forum">Forum</a>
