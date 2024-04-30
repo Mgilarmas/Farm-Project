@@ -8,14 +8,24 @@
   align-items: center;
 }
 
-.footer img{
+.footer-logo{
   width: 20vw;
   height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .seed-list{
   display: flex;
   flex-direction: column;
+  color: rgb(255, 255, 221);
 }
 
 .seed-list ul{
@@ -25,12 +35,13 @@
 
 .seed-list a{
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 221);
 }
 
 .fruit-list{
   display: flex;
   flex-direction: column;
+  color: rgb(255, 255, 221);
 }
 
 .fruit-list ul{
@@ -40,13 +51,14 @@
 
 .fruit-list a{
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 221);
 }
 
 .autor{
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: rgb(255, 255, 221);
 }
 
 
@@ -114,6 +126,11 @@
 
   .webs a{
     font-size: xx-large;
+  }
+
+  .footer-logo{
+    width: 8vw;
+    height: 25vh;
   }
 
 }

@@ -1,0 +1,77 @@
+.plant-list-background{
+  background: radial-gradient(circle, rgba(255,255,221,1) 0%, rgba(97,163,186,1) 100%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-plant-list{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-plant-list form{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-plant-list label{
+  font-size: x-large;
+}
+
+.form-plant-list input{
+  border-width: 2px;
+  border-radius: 10px;
+  filter: drop-shadow(0px -5px 7px #000000);
+}
+
+.form-plant-list button{
+  width: 20%;
+  height: 15%;
+  background-color: rgb(210, 222, 50);
+  filter: drop-shadow(0px -5px 5px #000000);
+}
+
+.show-plant-list{
+  width: 90%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show-plant-list-elements
+{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-button{
+  height: 70%;
+  width: 20%;
+  background-color: red;
+  color: white;
+  border-color: black;
+}
+
+.edit-button{
+  height: 70%;
+  width: 20%;
+  background-color: gold;
+  color: black;
+  border-color: black;
+}

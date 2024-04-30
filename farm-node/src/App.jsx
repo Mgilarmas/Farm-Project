@@ -5,6 +5,7 @@ import "./App.css"
 import Flowers from "./pages/flowers/Flowers"
 import PrivacyCookies from "./pages/privacyCookies/PrivacyCookies"
 import TermSales from "./pages/termSales/TermSales"
+import Forum from "./pages/forum/Forum"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/privacyCookies" element={<PrivacyCookies/>}/>
         <Route path="/termSales" element={<TermSales/>}/>
+        <Route path="/forum" element={<Forum/>}/>
       </Routes>
     </BrowserRouter>
   )
