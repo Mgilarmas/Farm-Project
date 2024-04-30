@@ -7,6 +7,8 @@ function PlantList() {
   const [seed, setSeed] = useState("");
   const [price, setPrice] = useState(0);
   const [crops, setCrops] = useState([])
+  const [selectedSeedIndex, setSelectedSeedIndex] = useState(null);
+
 
   const changeSeed = (e) => {
     setSeed(e.target.value)
@@ -23,8 +25,7 @@ function PlantList() {
   }
 
   const saveSeed = (seed, price) => {
-    {
-      starcropsService.addSeeds(seed, price).then((response) => {
+    {      starcropsService.addSeeds(seed, price).then((res) => {
         console.log("seed save")
       })
     }
@@ -60,6 +61,14 @@ function PlantList() {
 
   }
 
+  const editSeed = (key, index) => {
+    const selectedSeed = crops[index];
+    setSeed(selectedSeed.seed);
+    setPrice(selectedSeed.price);
+    setSelectedSeedIndex(index);
+    deleteSeeds(key);
+  };
+
   return (
     <>
       <div className="plant-list-background">
@@ -70,16 +79,17 @@ function PlantList() {
             <label htmlFor="seed">Price:</label>
             <input type="number" id="price" name="price" value={price} onChange={changePrice} />
 
-            <button type="submit">Add Seed</button>
+            <button type="submit">{selectedSeedIndex !== null ? "Edit Seed" : "Add Seed"}</button>
           </form>
         </div>
         <div className="show-plant-list">
           {
-            crops.map((c) => (
+            crops.map((c, index) => (
               <div key={c.key} className="show-plant-list-elements">
                 <p>{c.seed}</p>
                 <p>{c.price}</p>
-                <button onClick={() => deleteSeeds(c.key)}>Delete</button>
+                <button className="delete-button" onClick={() => deleteSeeds(c.key)}>Delete</button>
+                <button className="edit-button" onClick={() => editSeed(c.key, index)}>Edit</button>
               </div>
             ))
           }

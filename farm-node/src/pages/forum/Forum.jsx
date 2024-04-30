@@ -8,6 +8,7 @@ function Forum() {
     <>
       <Header/>
       <PlantList/>
+      <Footer/>
     </>
   )
 }
