@@ -16,7 +16,7 @@ function FieldBackground() {
       </div>
       <div className="background-image">
         <div>
-          <div className="yellow-filter"></div>
+          <div className="blue-filter"></div>
         </div>
       </div>
 

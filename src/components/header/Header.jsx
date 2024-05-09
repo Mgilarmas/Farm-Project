@@ -17,6 +17,7 @@ function Header() {
         <a href="Flowers">Flowers</a>
         <a href="Forum">Forum</a>
         <a href="Contact">Contact</a>
+        <a href="../RSS/RSS.xml">aaaaaa</a>
       </div>
       {sideMenuOpen ? <SideMenu toggleSideMenu={toggleSideMenu} /> : ""}
     </>
