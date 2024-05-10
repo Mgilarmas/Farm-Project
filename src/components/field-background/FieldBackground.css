@@ -40,7 +40,7 @@
 }
 
 .background-image {
-  background-image: url("../../../public/images/farm-background.webp");
+  background-image: url("/images/farm-background.webp");
   width: 100vw;
   height: 100vh;
   display: flex;
