@@ -30,56 +30,20 @@
   position: sticky;
 }
 
-#flowers{
+.seeds-types-container-seeds{
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  background-image: url("/images/roses.jpeg");
 }
 
-#flowers:hover{
-  width: 30%;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  transition: 1s;
-}
-
-#fruits{
+.seeds-types-container-seeds img{
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  background-image: url("/images/manzano.jpg");
+  object-fit: fill;
 }
 
-#fruits:hover{
-  width: 30%;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  transition: 1s;
-}
-
-#vegetables{
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  background-image: url("/images/berenjenas.jpg");
-}
-
-#vegetables:hover{
-  width: 30%;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  transition: 1s;
-}
-
-#trees{
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  background-image: url("/images/olive-tree.jpg");
-}
-
-#trees:hover{
+.seeds-types-container-variety:hover .seeds-types-container-seeds{
   width: 30%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
