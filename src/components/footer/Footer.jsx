@@ -36,6 +36,7 @@ function Footer() {
           <a className="fa-brands fa-linkedin"
             href="https://www.linkedin.com/in/gilarmas?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></a>
           <a className="fa-brands fa-facebook" href="https://www.facebook.com/mauricio.j.gil.1"></a>
+          <a className="fa-solid fa-square-rss" href="./RSS/RSS.xml"></a>
         </div>
         <div className="terms">
           <a href="PrivacyCookies">Privacy and Cookies policy</a>

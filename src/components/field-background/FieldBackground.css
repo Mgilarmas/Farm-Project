@@ -40,7 +40,7 @@
 }
 
 .background-image {
-  background-image: url("../../../public/images/farm-background.webp");
+  background-image: url("/images/farm-background.webp");
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -48,8 +48,8 @@
   flex-direction: row;
 }
 
-.yellow-filter {
-  background-color: rgb(247, 246, 187);
+.blue-filter {
+  background-color: rgb(97, 163, 186);
   width: 100vw;
   height: 100vh;
   filter: opacity(50%);

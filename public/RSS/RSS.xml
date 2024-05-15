@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Star Crops</title>
+    <link></link>
+    <description>This project it's about a website that sells seeds, fruits, vegetables, trees, plants and teach you how to take care of it.</description>
+    <item>
+      <title>Flowers</title>
+      <link></link>
+      <description>Info about Flowers</description>
+    </item>
+  </channel>
+</rss>
