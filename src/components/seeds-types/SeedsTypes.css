@@ -72,8 +72,8 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: start;
-  margin-left: 5.1em;
+  justify-content: center;
+  right: 0;
 }
 
 .spheres-seeds{
@@ -81,9 +81,7 @@
   height: 25%;
   border-radius: 100%;
   transition: 0.5s;
-  border-width: 2px;
-  margin-left: 1em;
-  background-color: black;
+  margin-left: 3em;
 }
 
 .spheres-seeds:hover{
@@ -91,4 +89,73 @@
   transition: 0.5s;
   margin-left: 5em;
   z-index: 3;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  .seeds-types-top-triangle{
+    border-bottom: 50vh solid transparent;
+    border-left: 150vh solid rgb(255, 255, 221);
+  }
+  
+  .seeds-types-bottom-triangle{
+    border-top: 50vh solid transparent;
+    border-right: 150vh solid rgb(255, 255, 221);
+  }
+
+  .spheres-seeds{
+    margin-left: 4em;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  .seeds-types-top-triangle{
+    border-bottom: 60vh solid transparent;
+    border-left: 190vh solid rgb(255, 255, 221);
+  }
+  
+  .seeds-types-bottom-triangle{
+    border-top: 60vh solid transparent;
+    border-right: 190vh solid rgb(255, 255, 221);
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  .spheres{
+    width: 71%;
+    height: 100%;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+  }
+  
+  .seeds-types-container-variety{
+    margin: 1em;
+  }
+
+  .spheres-seeds{
+    margin-left: 2em;
+  }
+
+  .seeds-types-container-variety{
+    width: 20%;
+    height: 30%;
+  }
+
 }

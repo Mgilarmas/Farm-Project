@@ -10,16 +10,24 @@ Initially appeared on
 Requirements for the software and other tools to build, test and push 
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-## Authors
+## Author
 
   - **Mauricio Gil Armas**
     [Mgilarmas](https://github.com/Mgilarmas)
+
+  - **Firehosting**
+    [Star Crops](https://starcropsproject.web.app/)
+    
+  - **Feedly RSS**
+    ![alt text](image.png)
+
 
 ## External Reference
 
   [W3School](https://www.w3schools.com/)
   [StackOverflow](https://es.stackoverflow.com/)
   [MDN web docs](https://developer.mozilla.org/es/)
+
 
 ## Acknowledgments
 
