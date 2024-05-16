@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Star Crops</title>
+    <link>https://starcropsproject.web.app/</link>
+    <description>This project it's about a website that sells seeds, fruits, vegetables, trees, plants and teach you how to take care of it.</description>
+    <item>
+      <title>Flowers</title>
+      <link>https://starcropsproject.web.app/Flowers</link>
+      <description>Info about Flowers</description>
+    </item>
+    <item>
+      <title>Forum</title>
+      <link>https://starcropsproject.web.app/Forum</link>
+      <description>Add seeds with a price</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://starcropsproject.web.app/Contact</link>
+      <description>Find where is our shop and how to contact us</description>
+    </item>
+  </channel>
+</rss>

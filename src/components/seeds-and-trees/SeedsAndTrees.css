@@ -1,22 +1,43 @@
 .crops-container{
   width: 100vw;
-  height: auto;
-  background-color: rgb(255, 255, 221);
+  height: 130vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: start;
   flex-wrap: wrap;
+  position: relative;
+  background-color: rgb(97, 163, 186);
+  overflow: hidden;
+}
+
+.crops-container-triangle-top{
+  width: 100%;
+  height: 0;
+  background-color: rgb(118, 198, 228);
+  border-top: 50vh solid transparent;
+  border-right: 200vh solid rgb(97, 163, 186);
+  position: absolute;
+}
+
+.crops-container-triangle-bottom{
+  background-color: rgb(59, 99, 114);
+  width: 100%;
+  height: 0;
+  position: absolute;
+  border-bottom: 50vh solid transparent;
+  border-right: 200vh solid rgb(97, 163, 186);
+  bottom: 0vw;
 }
 
 .image-list{
-  background-color: rgb(255, 255, 221);
+
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   padding-top: 1em;
-  padding-bottom: 1em;
+  z-index: 1;
 }
 
 .image-list-crops{
@@ -101,10 +122,44 @@
     width: 70%;
   }
 
+  .crops-container-triangle-top{
+    border-top:50vh solid transparent;
+    border-right: 300vh solid rgb(97, 163, 186);
+  }
+  
+  .crops-container-triangle-bottom{
+    border-bottom: 50vh solid transparent;
+    border-right: 300vh solid rgb(97, 163, 186);
+  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+
+  .image-list{
+    width: 30%;
+  }
+
+  .image-list-crops{
+    width: 50%;
+  }
+
+  .image-list-text{
+    width: 50%;
+  }
+
+  .crops-container-triangle-top{
+    border-top:50vh solid transparent;
+    border-right: 400vh solid rgb(97, 163, 186);
+  }
+  
+  .crops-container-triangle-bottom{
+    border-bottom: 50vh solid transparent;
+    border-right: 400vh solid rgb(97, 163, 186);
+  }
+
+}
